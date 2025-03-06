@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "The Silent Echo",
+    "author": "Jane Smith",
+    "genre": "Mystery",
+    "year": 2020,
+    "image": "silent_echo.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Quantum Dreams",
+    "author": "John Doe",
+    "genre": "Science Fiction",
+    "year": 2010,
+    "image": "quantum_dreams.jpg"
+  },
+  {
+    "id": 3,
+    "title": "The Crimson Trail",
+    "author": "Emily White",
+    "genre": "Thriller",
+    "year": 2000,
+    "image": "crimson_trail.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Echoes of Today",
+    "author": "Jane Smith",
+    "genre": "Fiction",
+    "year": 2020,
+    "image": "echoes_yesterday.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Stellar Voyages",
+    "author": "John Doe",
+    "genre": "Science Fiction",
+    "year": 2010,
+    "image": "stellar_voyages.jpg"
+  },
+  {
+    "id": 6,
+    "title": "The Vanishing Act",
+    "author": "David Lee",
+    "genre": "Mystery",
+    "year": 1990,
+    "image": "vanishing_act.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Time Weaver",
+    "author": "Emily White",
+    "genre": "Fiction",
+    "year": 2000,
+    "image": "timeweaver.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Planet X",
+    "author": "John Doe",
+    "genre": "Science Fiction",
+    "year": 2010,
+    "image": "planetx.jpg"
+  },
+  {
+    "id": 9,
+    "title": "The Dark Web",
+    "author": "David Lee",
+    "genre": "Thriller",
+    "year": 1990,
+    "image": "darkweb.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Whispers of the Past",
+    "author": "Jane Smith",
+    "genre": "Mystery",
+    "year": 2020,
+    "image": "whispers.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Beyond the Stars",
+    "author": "John Doe",
+    "genre": "Science Fiction",
+    "year": 2010,
+    "image": "beyondstars.jpg"
+  },
+  {
+    "id": 12,
+    "title": "The Final Hour",
+    "author": "Emily White",
+    "genre": "Thriller",
+    "year": 2000,
+    "image": "finalhour.jpg"
+  },
+  {
+    "id": 13,
+    "title": "City of Shadows",
+    "author": "Jane Smith",
+    "genre": "Mystery",
+    "year": 2020,
+    "image": "cityshadows.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Galactic Empires",
+    "author": "John Doe",
+    "genre": "Science Fiction",
+    "year": 2010,
+    "image": "galacticempires.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Empires",
+    "author": "John",
+    "genre": "Fiction",
+    "year": 2000,
+    "image": "empires.jpg"
+  }
+]

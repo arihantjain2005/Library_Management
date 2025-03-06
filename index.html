@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Book Nook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="library-logo.png" alt="Library Logo" class="logo">
+        </div>
+        <h1>The Book Nook</h1>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search...">
+            <button id="search-id-button">ID</button>
+            <button id="search-name-button">Name</button>
+            <button id="search-author-button">Author</button>
+            <button id="search-year-button">Year</button>
+        </div>
+    </header>
+    <div class="library-description">
+        <p>Welcome to The Book Nook, your cozy corner for literary adventures!</p>
+        <div>
+            <button id="add-book-button">Add Book</button>
+            <button id="delete-book-button">Delete Book</button>
+        </div>
+    </div>
+    <div class="library-banner">
+        <img src="banner-image.jpg" alt="Library Banner" class="banner-img">
+    </div>
+    <div id="books-container"></div>
+
+    <div id="edit-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Edit Book Details</h2>
+            <form id="edit-form">
+                <input type="hidden" id="edit-id">
+                <label for="edit-title">Title:</label>
+                <input type="text" id="edit-title"><br>
+                <label for="edit-author">Author:</label>
+                <input type="text" id="edit-author"><br>
+                <label for="edit-genre">Genre:</label>
+                <input type="text" id="edit-genre"><br>
+                <label for="edit-year">Year:</label>
+                <input type="number" id="edit-year"><br>
+                <label for="edit-image">Image URL:</label>
+                <input type="text" id="edit-image"><br>
+                <button type="submit">Update Book</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="add-modal" class="modal">
+        <div class="modal-content">
+            <span class="close add-close">&times;</span>
+            <h2>Add New Book</h2>
+            <form id="add-form">
+                <label for="add-title">Title:</label>
+                <input type="text" id="add-title"><br>
+                <label for="add-author">Author:</label>
+                <input type="text" id="add-author"><br>
+                <label for="add-genre">Genre:</label>
+                <input type="text" id="add-genre"><br>
+                <label for="add-year">Year:</label>
+                <input type="number" id="add-year"><br>
+                <label for="add-image">Image URL:</label>
+                <input type="text" id="add-image"><br>
+                <button type="submit">Add Book</button>
+            </form>
+        </div>
+    </div>
+    
+    <div id="delete-modal" class="modal">
+        <div class="modal-content">
+            <span class="close delete-close">&times;</span>
+            <h2>Delete Book</h2>
+            <div id="book-details">
+                <p><strong>Title:</strong> <span id="delete-title"></span></p>
+                <p><strong>Author:</strong> <span id="delete-author"></span></p>
+                <p><strong>Year:</strong> <span id="delete-year"></span></p>
+                <input type="hidden" id="delete-id">
+            </div>
+            <form id="delete-form">
+                <button type="submit">Delete Book</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 The Book Nook Library</p>
+        <p>Located at 123 Main Street, Anytown, USA</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
